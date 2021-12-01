@@ -11,11 +11,7 @@ import (
 	"github.com/confluentinc/confluent-kafka-go/kafka" // indirect
 )
 
-var (
-	brokers = "192.168.31.65:9097,192.168.31.65:9096,192.168.31.65:9095"
-	topics  = "test1"
-)
-
+// https://support.huaweicloud.com/devg-kafka/kafka-go.html
 func TestProducer() {
 	log.Println("Starting a new kafka producer")
 

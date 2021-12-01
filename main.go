@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/go-kafka/test"
+	"github.com/autoluck/go-kafka/test"
 )
 
 func main() {
-	test.TestProducer()
+	//test.TestProducer()
+	test.TestConsumer();
 }
